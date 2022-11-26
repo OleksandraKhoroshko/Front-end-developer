@@ -130,8 +130,14 @@ p {
     display: block;
     margin: 0 20px;
   }
-  .about-section {
+  .about-section{
     padding: 0 !important;
+  }
+  .about-section h2 {
+    margin-bottom: 5px;
+  }
+  .about-section p {
+    margin-bottom: 20px;
   }
 }
 .about-section {
