@@ -178,3 +178,9 @@ p {
   color: black;
   font-weight: bold !important;
 }
+nav li.active a {
+  color: var(--primary-color);
+}
+nav li a:hover{
+  color: var(--primary-color) !important;
+}
