@@ -2,17 +2,20 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   margin: 60px auto;
+  font-family: var(--default-font-family);
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin: 0 auto;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
@@ -21,6 +24,8 @@ h1 {
 
 h2 {
   font-size: 48px;
+  font-family: var(--default-font-family);
+
 }
 
 h3 {
@@ -118,9 +123,45 @@ p {
   }
   .center {
     text-align: center !important;
+    padding: 0;
+    margin: 0;
   }
   .center-1 {
     display: block;
     margin: 0 20px;
   }
-} ;
+  .about-section {
+    padding: 0 !important;
+  }
+}
+.about-section {
+  padding: 120px 20px;
+  text-align: left !important; 
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: left;
+  
+}
+.about-section h2 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  text-align: left;
+}
+.about-section p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 36px;
+}
+.about-section a {
+  font-size: 20px;
+}
+.about-section img {
+  border-radius: 20px;
+}
+.about-section-content {
+  margin: 30px;
+  justify-content: left;
+}
