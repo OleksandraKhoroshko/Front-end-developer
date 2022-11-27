@@ -33,7 +33,10 @@ h3 {
   opacity: 0.7;
   margin-top: 10px;
 }
-
+h4 {
+  font-size: 48px;
+  font-weight: bold;
+}
 p {
   border-radius: 4px;
   font-size: 18px;
@@ -183,4 +186,56 @@ nav li.active a {
 }
 nav li a:hover{
   color: var(--primary-color) !important;
+}
+footer {
+  margin: 60px 0;
+}
+.mail-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+.mail-link:hover{
+  color: var(--primary-color);
+}
+.social-links {
+  justify-content: center;
+}
+.social-links a {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+.social-links a:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+.contact-box p {
+  margin: 0;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 30px;
+}
+.contact a{
+  padding: 15px 30px;
+  font-size: 18px;
+}
+.contact a:hover{
+  color: black;
+  box-shadow: var(--box-shadow);
+}
+.main-mail {
+  text-align: center !important;
+  justify-content: center !important;
 }
