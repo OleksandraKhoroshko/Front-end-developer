@@ -25,7 +25,6 @@ h1 {
 h2 {
   font-size: 48px;
   font-family: var(--default-font-family);
-
 }
 
 h3 {
@@ -42,6 +41,22 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+.button {
+  background-color: var(--primary-color) !important;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.button:hover {
+  background-color: var(--primary-color);
+  color: black;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
 }
 .about {
   padding-top: 50px;
@@ -109,14 +124,19 @@ p {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
+  .hero h1 {
+    font-size: 64px;
+    margin: 10px;
   }
-  h2 {
+  .hero h2 {
     font-size: 32px;
   }
-  h3 {
+  .hero h3 {
     font-size: 22px;
+    margin-bottom: 60px !important;
+  }
+  .hero {
+    padding: 50px 10px;
   }
   .email-link {
     font-size: 20px;
@@ -142,9 +162,43 @@ p {
   .about-section p {
     margin-bottom: 20px;
   }
+  .description {
+    padding: 10px !important;
+    text-align: center;
+  }
+  .description h2{
+    margin-top: 20px;
+    font-size: 54px;
+  }
+}
+.description {
+  padding: 120px 60px;
+}
+.description h2{
+  font-size: 64px;
+  font-family: var(--heading-font-family) !important;
+  font-weight: bold;
+}
+.description p {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: normal;
+}
+.outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: white;
+}
+.outline:hover {
+  background-color: var(--primary-color);
+  color: black;
 }
 .about-section {
-  padding: 120px 20px;
+  padding: 60px 20px;
   text-align: left !important; 
 }
 
@@ -201,6 +255,7 @@ footer {
 }
 .social-links {
   justify-content: center;
+  margin-bottom: 50px;
 }
 .social-links a {
   color: var(--primary-color) !important;
@@ -217,7 +272,7 @@ footer {
 }
 .contact-box {
   background-color: var(--secondary-color);
-  padding: 30px 120px;
+  padding: 40px 120px;
   border-radius: 10px;
   margin-top: 120px;
 }
